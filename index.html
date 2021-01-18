@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in Canada</title>
+    <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="photo" style="width: auto; height: 700px;">
+        <div class="weather_info" >
+            <div class="city"><div class="city_name"></div><div class="city_search" style="width: 10px;"><i class="fas fa-globe-americas"></i></div></div>
+            
+            <div class="weather_icon"></div>
+            <div class="weather_description"></div>
+            <br>
+            <div><span>Current Temperature: </span><span class='current_temp'></span></div>
+            <div><span>Feels like: </span><span class='app_temp'></span></div>
+            
+            <div>Sunrise: <span class="sunrise"></span></div>
+            <div>Sunset: <span class="sunset"></span></div>
+            <div>UV index: <span class="uv_index"></span></div>
+            <div>Wind speed: <span class="wind_speed"></span></div>
+            <div>Cloud coverage: <span class="cloud_coverage"></span> %</div>
+
+            <div class="weather_forecast">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </div>
+    photo by Pexels
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

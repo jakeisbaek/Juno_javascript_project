@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.photo {
+    display: flex;
+}
+
+.city_name {
+        font-size: 35px;
+    }
+
+.city {
+    display: flex;
+}
+
+.weather_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: gray;
+    opacity: .7; 
+    width: 700px;
+    height: 500px;
+    margin:30px auto;
+}
+
+.weather_icon {
+    margin: 10px;
+}
+
+.weather_forecast {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.weather_forecast > div {
+    width: 80px;
+    height: 100px;
+    margin: 10px;
+    background-color: #4B4745;
+    opacity: 0.8;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.fas {
+    font-size: 50px;
+}
+
+.fa-globe-americas{
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.fa-search {
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+@media screen and (max-width: 750px){
+
+    span, div {
+        font-size: 14;
+    }
+
+    .city_name {
+        font-size: 24px;
+    }
+
+    .weather_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        background-color: gray;
+        opacity: .7; 
+        width: 400px;
+        height: 600px;
+        margin:30px auto;
+    }
+
+    .weather_forecast {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .weather_forecast > div {
+        width: 150px;
+        height: 40px;
+        margin: 3px;
+        background-color: #4B4745;
+        opacity: 0.8;
+        font-size: 12px;
+        text-align: center;
+    
+    }
+
+    .fas {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 3px;
+    }
+
+    .weather_icon > i{
+    font-size: 40px;
+    }
+}
